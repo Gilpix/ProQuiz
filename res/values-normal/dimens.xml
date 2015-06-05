@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="level">40sp</dimen>
+     <dimen name="actionbar_title">25sp</dimen>
+   <dimen name="question_size">20sp</dimen>
+   <dimen name="question_pic">20sp</dimen>
+   <dimen name="checkbox_pic">20sp</dimen>
+</resources>

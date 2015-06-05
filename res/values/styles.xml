@@ -1,0 +1,2257 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    
+    
+    
+    
+    
+    
+    </style>
+    <style name="NoActionBar" parent="@android:style/Theme.Holo.Light">
+    <item name="android:windowActionBar">false</item>
+    <item name="android:windowNoTitle">true</item>
+</style> 
+
+      
+    <color name="highlightedTextColor">#8B4513</color>
+    
+    
+    
+    
+    
+    
+    
+    
+       <string-array name="ent_ques">
+        <item>Q1. This 1993 film won Oscars, despite its sometimes harrowing portrayal of hardships and stress, including the butchering of its heroines hand; which film was it?</item>
+		<item>Q2. Who played Superman in the TV series "The New Adventures of Superman" in the 1990s?</item>
+		<item>Q3. In James Bond, the real surname of Q is</item>	
+		<item>Q4. Who was it once who said "i have had talent for irritating women since i was 14"?</item>
+		<item>Q5. Which of the following had the longest film career?</item>
+                <item>Q6. Which actor played Johnny Friendly in "On The Waterfront"?</item>
+                <item>Q7. On British television, John Steed and Emma Peel were known collectively as what?</item>
+                <item>Q8. Who is popularly known as "Father of Indian Cinema"?</item>
+                <item>Q9. Rajesh Khanna owned the title "First Superstar" of Indian cinema after how many consecutive solo hit movies?</item>
+                <item>Q10. Filmfare Awards started from year?</item>
+                <item>Q11. First Indian to win an Oscar Award?</item>
+                <item>Q12. What is the name of the fictional planet which is the homeworld of the ‘Transformers’?</item>
+                <item>Q13. For which film did Kevin Costner win a best director oscar in 1990?</item>
+                <item>Q14. Which actor starred in the movie "The Sixth Sense"?</item>
+		<item>Q15. In Italian translation who is Mr. Kiss Kiss Bang Bang?</item>
+    </string-array>
+   <string-array name="ent_cho_A">
+        <item>Schindlers List</item>
+		<item>Dean Cain</item>
+		<item>Messervy</item>	
+		<item>Marilyn Monroe</item>
+		<item>Douglas Fairbanks Junior</item>
+                <item>Ed Asner</item>
+                <item>The Feebles</item>
+                <item>Dadasaheb Phalke</item>
+                <item>14</item>
+                <item>1952</item>
+                <item>Satyajit Ray</item>
+                <item>Cybertron</item>
+                <item>Draft Day</item>
+                <item>Bruce Willis</item>
+		<item>Hulk</item>
+    </string-array>
+	   <string-array name="ent_cho_B">
+        <item>The Piano</item>
+		<item>John Haymes Newton</item>
+		<item>Boothroyd</item>	
+		<item>Shirley Eaton</item>
+	        <item>Stanley Holloway</item>
+                <item>Rod Steiger</item>
+                <item>The Avengers</item>
+                <item>V.Shantaram</item>
+                <item>16</item>
+                <item>1954</item>
+                <item>A R Rehman</item>
+                <item>Revotron</item>
+                <item>The Bodyguard</item>
+                <item>Harvey Kietel</item>
+		<item>James Bond</item>
+    </string-array>
+	   <string-array name="ent_cho_C">
+        <item>The Fugitive</item>
+		<item>Tom Welling</item>
+		<item>Prescott</item>	
+		<item>Kate Upton</item>
+		<item>Vincent Price</item>
+                <item>Lee J.Cobb</item>
+                <item>Bill and Ben</item>
+                <item>Ardeshir Irani</item>
+                <item>15</item>
+                <item>1956</item>
+                <item>Rasool Pookutty</item>
+                <item>Transformium</item>
+                <item>Dances With Wolves</item>
+                <item>Ben Stiller</item>
+		<item>Iron Man</item>
+    </string-array>
+	   <string-array name="ent_cho_D">
+        <item>Farewell My Concubine</item>
+		<item>Brandon Routh</item>
+		<item>Major</item>	
+		<item>Angelina Jolie</item>
+		<item>John Gielgud</item>
+                <item>Karl Malden</item>
+                <item>The Ropers</item>
+                <item>Kidar Sharma</item>
+                <item>17</item>
+                <item>1962</item>
+                <item>Bhanu Athaiya</item>
+                <item>Galvotron</item>
+                <item>Field of Dreams</item>
+                <item>Sylvester Stallone</item>
+		<item> Charlie Chaplin</item>
+    </string-array>
+	   <string-array name="ent_ans">
+        <item>The Piano</item>
+		<item>Dean Cain</item>
+		<item>Boothroyd</item>	
+		<item>Marilyn Monroe</item>
+		<item>John Gielgud</item>
+                <item>Lee J.Cobb</item>
+                <item>The Avengers</item>
+                <item>Dadasaheb Phalke</item>
+                <item>15</item>
+                <item>1954</item>
+                <item>Bhanu Athaiya</item>
+                <item>Cybertron</item>
+                <item>Dances With Wolves</item>
+                <item>Bruce Willis</item>
+		<item>James Bond</item>
+    </string-array>
+    
+	   
+	   
+	   
+	   
+	   <string-array name= "bus_ques">
+	<item>Q1. What does CFO Stand For?</item>
+	<item>Q2. 20 years after opeining his first store in Seattle. What did Eddie Bauer Patent?</item>
+	<item>Q3. Which atheletic used the slogan JUST DO IT ?</item>
+	<item>Q4. Which of the following is not a Canadian Telecom Company?</item>
+	<item>Q5. Which type of Business did Lahman Brothers trade in prior to going Bust in 2008?</item>
+	<item>Q6. Since 1845 Casa Del Habana in Cuba has been a world leader in what product?</item>
+	<item>Q7. What media tycoon was married to Jane Fonda from 1991 to 2001?</item>
+	<item>Q8. In Feb 2010 Jonathan Schwartz resigned as SUN Microsystems CEO by uing what literay form?</item>
+	<item>Q9. What companys First product was an electric Rice Cooker?</item>
+	<item>Q10. In what year did the Bank bearstarns go Bust?</item>
+	<item>Q11. In 1953 the NewYork Stock exchange fixed its number of seats at how many?</item>
+	<item>Q12. The book published Harper Collins is owned by which media group?</item>
+	<item>Q13. In 1986 what company was first founded to make it a fortune 500 Company?</item>
+	<item>Q14. Mecy owns what other retail icon based at 59th and Lexington in Manhattan?</item>
+	<item>Q15. For a few US Dollays on Ebay you can get what contries 100 trillion Dollars Notes?</item>
+</string-array>
+
+<string-array name= "bus_cho_A">
+	<item>Central Finance Official</item>
+	<item>A Contoured Running Shoe</item>
+	<item>Nike</item>
+	<item>Bell Canada</item>
+	<item>Oil</item>
+	<item>Bananas</item>
+	<item>Ted Turner</item>
+	<item>Ballad</item>
+	<item>Yamaha</item>
+	<item>2012</item>
+	<item>23999</item>
+	<item>New Corp</item>
+	<item>Nokia</item>
+	<item>Sacks</item>
+	<item>Thailand</item>
+</string-array>
+
+<string-array name= "bus_cho_B">
+	<item>Cheif Futurist Opiner</item>
+	<item>An Espresso Machine</item>
+	<item>Puna</item>
+	<item>Sprint</item>
+	<item>Technology</item>
+	<item>Sigars</item>
+	<item>Rupert Murdoch</item>
+	<item>Limerick</item>
+	<item>Honda</item>
+	<item>1988</item>
+	<item>1366</item>
+	<item>Packer Group</item>
+	<item>Samsung</item>
+	<item>Blooming Dales</item>
+	<item>Mexico</item>
+</string-array>
+
+<string-array name= "bus_cho_C">
+	<item>Chief Forwarding Organiser</item>
+	<item>A Heated Car Seat</item>
+	<item>Addidas</item>
+	<item>Telus</item>
+	<item>Banking</item>
+	<item>Brandie</item>
+	<item>Micheal Eisner</item>
+	<item>Acrostic</item>
+	<item>Sony</item>
+	<item>1922</item>
+	<item>419</item>
+	<item>Bauer Media</item>
+	<item>Tata Motors</item>
+	<item>Neiman Markus</item>
+	<item>Canada</item>
+</string-array>
+
+<string-array name= "bus_cho_D">
+	<item>Chief Financial Officer</item>
+	<item>A Quilted Gown Jacket</item>
+	<item>Rebook</item>
+	<item>Rogers</item>
+	<item>Manufacturing</item>
+	<item>Playing Cards</item>
+	<item>Sumner RedStone</item>
+	<item>Haiku</item>
+	<item>Hitachi</item>
+	<item>2008</item>
+	<item>12</item>
+	<item>Male Group</item>
+	<item>Liz Claiborne</item>
+	<item>Barneys NewYork</item>
+	<item>Zimvabwe</item>
+</string-array>
+
+<string-array name= "bus_ans">
+	<item>Chief Financial Officer</item>
+	<item>A Quilted Gown Jacket</item>
+	<item>Nike</item>
+	<item>Sprint</item>
+	<item>Banking</item>
+	<item>Sigars</item>
+	<item>Ted Turner</item>
+	<item>Haiku</item>
+	<item>Sony</item>
+	<item>2008</item>
+	<item>1366</item>
+	<item>New Corp</item>
+	<item>Liz Claiborne</item>
+	<item>Blooming Dales</item>
+	<item>Zimvabwe</item>
+</string-array>
+
+	   
+    
+    
+    
+    
+    
+  
+   <string-array name="lit_ques">
+        <item>Q1. Who was the author of the famous storybook Alices Adventures in Wonderland?</item>
+		<item>Q2. How many lines does a sonnet have?</item>
+		<item>Q3. Who wrote "Where ignorance is bliss, it is folly to be wise"? </item>
+		<item>Q4. Name the book which opens with the line "All children, except one grew up"?</item>
+		<item>Q5. Which is the first Harry Potter book?</item>
+		<item>Q6. In which century were Geoffrey Chaucers Canterbury Tales written?</item>
+		<item>Q7. What nationality was Robert Louis Stevenson, writer of "Treasure Island"?</item>
+		<item>Q8. "Jane Eyre" was written by which Bronte sister?</item>
+		<item>Q9. What is the book "Lord of the Flies" about?</item>
+		<item>Q10. In the book "The Lord of the Rings", who or what is Bilbo?</item>		
+		<item>Q11. Who wrote the crime novel "Ten Little Niggers"?</item>
+		<item>Q12. Who was the last recipient of Bharat Ratna?</item>
+		<item>Q13. Which is India’s highest military honour?</item>
+		<item>Q14. Who is the 2006 recipient of the International Gandhi Peace Prize?</item>
+		<item>Q15. Who gets Dronacharya Award?</item>
+    </string-array>
+   <string-array name="lit_cho_A">
+        <item>Rudyard Kipling</item>
+		<item>10</item>
+		<item>Browning</item>
+		<item>The Railway Children</item>
+		<item>HP and the Goblet of Fire</item>
+		<item>14th</item>
+		<item>Scottish</item>
+		<item>Anne</item>
+		<item>A round trip around the USA</item>
+		<item>Dwarf</item>
+		<item>Sir Arthur Conan Doyle</item>		
+		<item>Ustad Bismillah Khan</item>
+		<item>Param Vir Chakra</item>
+		<item>Baba Amte</item>
+		<item>Best Wrestler</item>
+    </string-array>
+	   <string-array name="lit_cho_B">
+        <item>John Keats</item>
+		<item>12</item>
+		<item>Marx</item>
+		<item>Winnie the Poo</item>
+		<item>HP and the Philosopher’s Stone</item>
+		<item>15th</item>
+		<item>Welsh</item>
+		<item>Charlotte</item>
+		<item>A swarm of killer flies</item>
+		<item>Wizard</item>		
+		<item>Irvine Welsh</item>
+		<item>M.S Subbulakshmi</item>
+		<item>Vir Chakra</item>
+		<item>Nelson Mandela</item>
+		<item>Best Batsman</item>
+    </string-array>
+	   <string-array name="lit_cho_C">
+        <item>Lewis Carroll</item>
+		<item>14</item>
+		<item>Shakespeare</item>
+		<item>Jungle book</item>
+		<item>None Of These</item>
+		<item>16th</item>
+		<item>Irish</item>
+		<item>None of the these</item>
+		<item>Schoolboys on the desert island</item>
+		<item>Hobbit</item>		
+		<item>Agatha Christie</item>
+		<item>Gulzarilal Nanda</item>
+		<item>Maha Vir Chakra</item>
+		<item>John Hume</item>
+		<item>Best Tennis Player</item>
+    </string-array>
+	   <string-array name="lit_cho_D">
+        <item>H G Wells</item>
+		<item>They vary</item>
+		<item>Kipling</item>
+		<item>Peter Pan</item>
+		<item>HP and the Chamber of Secrets</item>
+		<item>17th</item>
+		<item>French</item>
+		<item>Emily</item>
+		<item>None Of these</item>
+		<item>Troll</item>		
+		<item>Emile Zola</item>
+		<item>Gopinath Bordoloi</item>
+		<item>Bharat Ratna</item>
+		<item>Shabana Azmi</item>
+		<item>Best Coach</item>
+    </string-array>
+	   <string-array name="lit_ans">
+        <item>Lewis Carroll</item>
+		<item>14</item>
+		<item>Shakespeare</item>
+		<item>Peter Pan</item>
+		<item>HP and the Philosopher’s Stone</item>
+		<item>14th</item>
+		<item>Scottish</item>
+		<item>Charlotte</item>
+		<item>Schoolboys on the desert island</item>
+		<item>Hobbit</item>		
+		<item>Agatha Christie</item>
+		<item>Ustad Bismillah Khan </item>
+		<item>Param Vir Chakra</item>
+		<item>Shabana Azmi</item>
+		<item>Best Coach</item>
+    </string-array> 
+    
+	   
+	   
+	   
+	   
+	   
+	      <string-array name="nat_ques">
+        <item>Q1. What is the name of this famous river? </item>
+		<item>Q2. This is the higest waterfall in the world.</item>
+		<item>Q3. Ayers rocks in Australiya is also known as</item>
+		<item>Q4. Can you identify this tree ?</item>
+		<item>Q5. What is the name of this fish?</item>
+		<item>Q6. Which is the commonest bird in Britain ?</item>
+		<item>Q7. Where is this Grand Canyon situated?</item>
+		<item>Q8. Which city is nearest to this Great Blue Hole?</item>
+		<item>Q9. This is the largest tree in the world. What is its name?</item>
+		<item>Q10. This river is the longest river in the world. Identify its name?</item>		
+		<item>Q11. Which wild flower is also known as knapweed?</item>
+		<item>Q12. This is the world’s largest flower its name is?</item>
+		<item>Q13. "Mount Everest" higest mountain in the world is located in?</item>
+		<item>Q14. Which is the smallest bird in the world?</item>
+		<item>Q15. Name the bristlecone pine tree(oldest non-clonal tree) from White Mountains(California)? </item>
+    </string-array>
+   <string-array name="nat_cho_A">
+        <item>Nile River</item>
+		<item>Niagara Falls</item>
+		<item>Banan</item>
+		<item>Eucaliptus</item>
+		<item>Blue Shark</item>
+		<item>Willow Ptarmigan</item>
+		<item>Arizona</item>
+		<item>Moscow</item>
+		<item>Manitoba Maple</item>		
+		<item>Nile</item>
+		<item>Delphinium</item>
+		<item>Fressia</item>
+		<item>Bhutan</item>
+		<item>Humming Bird</item>
+                <item>Tembusu</item>
+    </string-array>
+	   <string-array name="nat_cho_B">
+        <item>Amazon River</item>
+		<item>Angel Falls</item>
+		<item>Murane</item>
+		<item>Norway Spruce</item>
+		<item>Tiger Shark</item>
+		<item>Carolina Wren</item>
+		<item>Jerusalem</item>
+		<item>Oslo</item>
+		<item>Pin Oak</item>
+		<item>Indus</item>		
+		<item>Bupleurum</item>
+		<item>Rafflesia Arnoldii</item>
+		<item>India</item>
+		<item>Eagle</item>
+		<item>Sugi</item>
+    </string-array>
+	   <string-array name="nat_cho_C">
+        <item>Yellow River</item>
+		<item>Victoria Falls</item>
+		<item>Agustus</item>
+		<item>Baobab</item>
+		<item>Bull Shark</item>
+		<item>Striated Pardalote</item>
+		<item>Dublin</item>
+		<item>Italy</item>
+		<item>Genaral Sherman</item>
+		<item>Niger</item>
+		<item>Amaranthus</item>		
+		<item>Gladiolus</item>
+		<item>Nepal</item>
+		<item>Vultur Gryphus</item>
+		<item>Kapok</item>
+    </string-array>
+	   <string-array name="nat_cho_D">
+        <item>Indus River</item>
+		<item>Yosemite Falls</item>
+		<item>Uluru</item>
+		<item>White Mangrove</item>
+		<item>Bramble Shark</item>
+		<item>Flamingos</item>
+		<item>Berlin</item>
+		<item>Belize</item>
+		<item>Mahagony</item>
+		<item>None of the above</item>		
+		<item>Centaurea Nigra</item>
+		<item>Quince</item>
+		<item>Iraq</item>
+		<item>Kiwi</item>
+		<item>Methuselah</item>
+    </string-array>
+	   <string-array name="nat_ans">
+        <item>Amazon River</item>
+		<item>Angel Falls</item>
+		<item>Uluru</item>
+		<item>Baobab</item>
+		<item>Blue Shark</item>
+		<item>Carolina Wren</item>
+		<item>Arizona</item>
+		<item>Belize</item>
+		<item>Genaral Sherman</item>
+		<item>Nile</item>		
+		<item>Centaurea Nigra</item>
+		<item>Rafflesia Arnoldii</item>
+		<item>Nepal</item>
+		<item>Humming Bird</item>
+		<item>Methuselah</item>
+    </string-array>
+	   
+	   
+	   
+	   
+	   
+	
+	   <string-array name= "rel_ques">
+	<item>Q1. What nationality was Confucius?</item>
+	<item>Q2. How many times did Peter deny Christ?</item>
+	<item>Q3. Which religious group is collectively known as the Church of the latter day saints?</item>
+	<item>Q4. Which Christian group denies the idea of the Trinity?</item>
+	<item>Q5. What name is given to the 4 holy books of the Hindus?</item>
+	<item>Q6. What does TM stand for in the movement founded by the Maharishi?</item>
+	<item>Q7. How is the International Society for Krishna Consciousness known?</item>
+	<item>Q8. What term is used in Islam for "Holy War"?</item>
+	<item>Q9. How many Asma-Al-husna are mentioned in the last two verses of Sura Al-Hashr?</item>
+	<item>Q10. Prophet Saleh was sent to?</item>
+	<item>Q11. Which important event, mentioned in the Quran occured one year before Hijrah in Makkah?</item>
+	<item>Q12. In qualifying for becoming a deacon, your wife must be what?</item>
+	<item>Q13. According to Paul, what is the root of all evil?</item>
+	<item>Q14. Paul calls himself the what of sinners?</item>
+	<item>Q15. Why was king Asa afflicted with a foot disease at the end of his life?</item>
+</string-array>
+
+<string-array name= "rel_cho_A">
+	<item>Chinese</item>
+	<item>Once</item>
+	<item>Judaism</item>
+	<item>Unitarians</item>
+	<item>Bible</item>
+	<item>Trademark </item>
+	<item>Hare Krishna</item>
+	<item>Haram</item>
+	<item>17</item>
+	<item>People of Madyan </item>
+	<item>Hunain</item>
+	<item>Submissive</item>
+	<item>Ungodliness</item>
+	<item>Epitome</item>
+	<item>He was righteous in Gods eyes</item>
+</string-array>
+
+<string-array name= "rel_cho_B">
+	<item>Italian</item>
+	<item>Twice</item>
+	<item>The Mormons</item>
+	<item>Manchu</item>
+	<item>Quran</item>
+	<item>Transcendental Meditation</item>
+	<item>Shiva</item>
+	<item>Jihad</item>
+	<item>15</item>
+	<item>People of Kahaf</item>
+	<item>Abu Lahabs Death</item>
+	<item>Temperate</item>
+	<item>Temptation</item>
+	<item>Chief  </item>
+	<item>He sought not the Lord </item>
+</string-array>
+
+<string-array name= "rel_cho_C">
+	<item>Japanese</item>
+	<item>Thrice</item>
+	<item>Catholic</item>
+	<item>Bouyei</item>
+	<item>The Vedas</item>
+	<item>Tunai Madata</item>
+	<item>Lord Rama</item>
+	<item>Kurban</item>
+	<item>10</item>
+	<item>People of Thamud</item>
+	<item>Abu Salems Death</item>
+	<item>Meek</item>
+	<item>Love of money </item>
+	<item>Foremost</item>
+	<item>He was defeated by king Baasha</item>
+</string-array>
+
+<string-array name= "rel_cho_D">
+	<item>Indian</item>
+	<item>None</item>
+	<item>Jehovah</item>
+	<item>Kyrgyz</item>
+	<item>Tipitaka</item>
+	<item>Trepai Trintiny</item>
+	<item>Hanuman</item>
+	<item>Imaam</item>
+	<item>13</item>
+	<item>People of Nepal</item>
+	<item>Miraj</item>
+	<item>Hospitable</item>
+	<item>Gossip</item>
+	<item>Greatest</item>
+	<item>He offered not right sacrifices</item>
+</string-array>
+
+<string-array name= "rel_ans">
+	<item>Chinese</item>
+	<item>Thrice</item>
+	<item>The Mormons</item>
+	<item>Unitarians</item>
+	<item>The Vedas</item>
+	<item>Transcendental Meditation</item>
+	<item>Hare Krishna</item>
+	<item>Jihad</item>
+	<item>17</item>
+	<item>People of Thamud</item>
+	<item>Miraj</item>
+	<item>Temperate</item>
+	<item>Love of money </item>
+	<item>Chief  </item>
+	<item>He sought not the Lord </item>
+</string-array>
+
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	      <string-array name="sci_ques">
+        <item>Q1.  Which kind of species are snakes </item>
+		<item>Q2.  The Largest Amphibian in the world is</item>
+		<item>Q3.  Whiich is the worlds largest carnivore</item>
+		<item>Q4.  The Heaviest flying bird in the world</item>
+		<item>Q5.  The worlds oldest living organism</item>
+		<item>Q6.  The only word not appearing in the periodic table is</item>
+		<item>Q7.  The Deepest Lake in the world is</item>
+		<item>Q8.  The most Abindant Element in the universe</item>
+		<item>Q9.  The only Bird with the ability to flow backwards?</item>
+		<item>Q10. The only Bird that cannot walk is</item>
+		<item>Q11. How many teeths does a mosquito have</item>
+		<item>Q12. The only organisma on earth that do not sleep are </item>
+		<item>Q13. Who invented the wristwatch</item>
+		<item>Q14. The only planet which was first predicted by calculation before being seen was</item>
+		<item>Q15. The only planet which when kept on water,Will float is</item>
+    </string-array>
+   <string-array name="sci_cho_A">
+                <item>Herbivores</item>
+		<item>Salamander</item>
+		<item>Salamander</item>
+		<item>Ostrich</item>
+		<item>Giant Tortoise</item>
+		<item>Z</item>
+		<item>Lake Michigan</item>
+		<item>Carbon</item>
+		<item>The Australian Woodpecker</item>
+		<item>The Australian Woodpecker</item>
+		<item>23</item>
+		<item>Bats</item>
+		<item>Thomas Cook</item>
+		<item>Saturn</item>	
+		<item>Saturn</item>
+    </string-array>
+	   <string-array name="sci_cho_B">
+        <item>Carnivores</item>
+		<item>Saltwater Crocodile</item>
+		<item>Saltwater Crocodile</item>
+		<item>Dalmatican Pelican</item>
+		<item>Blue Whale</item>
+		<item>X</item>
+		<item>Lake Baikal</item>
+		<item>Nitrogen</item>
+		<item>Nightangle</item>
+		<item>Nightangle</item>
+		<item>33</item>
+		<item>The great indian Owl</item>
+		<item>James Nilanfer</item>
+		<item>Neptune</item>
+		<item>Neptune</item>
+    </string-array>
+		<string-array name="sci_cho_C">
+        <item>Omnivores</item>
+		<item>Elephant Seal</item>
+		<item>Elephant Seal</item>
+		<item>Great White Pelican</item>
+		<item>Molusc</item>
+		<item>Q</item>
+		<item>Sambhar Lake</item>
+		<item>Oxygen</item>
+		<item>Humming Bird</item>
+		<item>Humming Bird</item>
+		<item>37</item>
+		<item>Mongoose</item>
+		<item>Louis Cartier</item>
+		<item>Pluto</item>
+		<item>Pluto</item>
+    </string-array>
+	   <string-array name="sci_cho_D">
+        <item>Either A or B</item>
+		<item>Blue Whale</item>
+		<item>Blue Whale</item>
+		<item>Brown Pelican</item>
+		<item>Seal</item>
+		<item>J</item>
+		<item>Lake Superior</item>
+		<item>Hydrogen</item>
+		<item>Cuckoo</item>
+		<item>Cuckoo</item>
+		<item>47</item>
+		<item>Ants</item>
+		<item>Louis Cook</item>
+		<item>Jupiter</item>
+		<item>Jupiter</item>
+    </string-array>
+	   <string-array name="sci_ans">
+        <item>Carnivores</item>
+		<item>Salamander</item>
+		<item>Elephant Seal</item>
+		<item>Dalmatican Pelican</item>
+		<item>Molusc</item>
+		<item>J</item>
+		<item>Lake Baikal</item>
+		<item>Hydrogen</item>
+		<item>Humming Bird</item>
+		<item>Humming Bird</item>
+		<item>47</item>
+		<item>Ants</item>
+		<item>Louis Cartier</item>
+		<item>Neptune</item>
+		<item>Saturn</item>
+    </string-array>
+	   
+	   
+	 
+	   
+	   
+	   
+	   
+	   
+    <string-array name= "tech_ques">
+	<item>Q1. Which company created the most used networking software in 1980?</item>
+	<item>Q2. Which of the following operating system is produced by IBM?</item>
+	<item>Q3. Which one of the following is a search engine?</item>
+	<item>Q4. What is LCP?</item>
+	<item>Q5. What is VCM? </item>
+	<item>Q6. What does the HTTP stands for?</item>
+	<item>Q7. What is the website code for the country Spain?</item>
+	<item>Q8. In which decade was the transistor invented?</item>
+	<item>Q9. AOL stands for ?</item>
+	<item>Q10. Which of these is not a computer? </item>
+	<item>Q11. What is the part of Database that holds only one type of Information?</item>
+	<item>Q12. Who created PGP?</item>
+	<item>Q13. Who developed Yahoo?</item>
+	<item>Q14. Who is the founder of Whatsapp?</item>
+	<item>Q15. .BAT file extension refers to usually what kind of file?</item>
+</string-array>
+<string-array name= "tech_cho_A">
+	<item>Microsoft</item>
+	<item>OS2</item>
+	<item>Macromedia Flash</item>
+	<item>Local Connection Protocol</item>
+	<item>Virtual Connection Manager</item>
+	<item>Hypertext Transfer Protocol</item>
+	<item>SI</item>
+	<item>1940</item>
+	<item>Arranged Outer Line</item>
+	<item>Aptiva</item>
+	<item>Report</item>
+	<item>Phil Zimmer Mann</item>
+	<item>Ken Thompson</item>
+	<item>Jan Koum</item>
+	<item>Compressed Archive Files</item>
+</string-array>
+<string-array name= "tech_cho_B">
+	<item>Sun</item>
+	<item>WIndows</item>
+	<item>Google</item>
+	<item>Lost connection Problem </item>
+	<item>Virtual Channel Memory</item>
+	<item>High Task Termination Procedure</item>
+	<item>SP</item>
+	<item>1950</item>
+	<item>America Over Lan</item>
+	<item>Macintosh</item>
+	<item>Field</item>
+	<item>Tim Barners</item>
+	<item>David Filo</item>
+	<item>Steve Jobs</item>
+	<item>System File</item>
+</string-array>
+<string-array name= "tech_cho_C">
+	<item>IBM</item>
+	<item>Unix</item>
+	<item>Netscape</item>
+	<item>Link control Protocol</item>
+	<item>Voice Controlled modem</item>
+	<item>Harward Teletext Proof</item>
+	<item>ES</item>
+	<item>1960</item>
+	<item>Audio Over Lan</item>
+	<item>Acorn</item>
+	<item>Record</item>
+	<item>Mark Anderson</item>
+	<item>Jerry Yang</item>
+	<item>Millen Mikensy</item>
+	<item>Audio File</item>
+</string-array>
+<string-array name= "tech_cho_D">
+	<item>Novell</item>
+	<item>Dos</item>
+	<item>Librarians</item>
+	<item>Laggy COnnection Problem</item>
+	<item>Voice Controlled Module</item>
+	<item>Hindustand Times Technical Professional</item>
+	<item>SN</item>
+	<item>1980</item>
+	<item>America Online</item>
+	<item>Paseo</item>
+	<item>File</item>
+	<item>Ken Thompson</item>
+	<item>Vint Cerf</item>
+	<item>Garry Kotrkis</item>
+	<item>Backup File</item>
+</string-array>
+<string-array name= "tech_ans">
+	<item>Novell</item>
+	<item>OS2</item>
+	<item>Google</item>
+	<item>Link Control Protocol</item>
+	<item>Virtual Channel Memory</item>
+	<item>Hypertext Transfer Protocol</item>
+	<item>ES</item>
+	<item>1940</item>
+	<item>America Online</item>
+	<item>Paseo</item>
+	<item>Field</item>
+	<item>Phil Zimmer Mann</item>
+	<item>David Filo</item>
+	<item>Jan Koum</item>
+	<item>System File</item>
+</string-array>
+
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   <string-array name="gam_ques">
+<item>Q1. The National Game of Japan is</item>
+<item>Q2. Oval stadium in England is associated with </item>
+<item>Q3. World’s most ancient game is </item>
+<item>Q4. 2010 Commonwealth Games held in </item>
+<item>Q5. 2014 FIFA World Cup was held in </item>
+<item>Q6. Perth Stadium is associated with </item>
+<item>Q7. Who are Kangaroos? </item>
+<item>Q8. In 2011 India won the World Cup. Who was adjudicated as the man of the match in the final? </item>
+<item>Q9. Eden Gardens in Kolkata is —– stadium. </item>
+<item>Q10. The head quarters of International Olympic Committee is at </item>
+<item>Q11. The term “Smasher” is associated with </item>
+<item>Q12. How many gold medals won by India in 2010 Commonwealth Games? </item>
+<item>Q13. 2009 Davis cup was won by </item>
+<item>Q14. Mahesh Bhupathi is associated with </item>
+<item>Q15. Santhosh Trophy is associated with </item>
+    </string-array>
+   <string-array name="gam_cho_A">
+        <item>Tennis</item>
+		<item>Polo</item>
+<item>Boxing</item>
+<item>Canada</item>
+<item>India</item>
+<item>Cricket</item>
+<item>Bangladesh</item>
+<item>M S Dhoni</item>
+<item>Tennis</item>
+<item>Los Angles</item>
+<item>Volley ball</item>
+<item>30</item>
+<item>France</item>
+<item>Chess</item>
+<item>Cricket</item>
+    </string-array>
+	   <string-array name="gam_cho_B">
+        <item>Base ball</item>
+		<item>Cricket</item>
+<item>Running</item>
+<item>India</item>
+<item>Brazil</item>
+<item>Tennis</item>
+<item>Kenya</item>
+<item>Zaheer Khan</item>
+<item>Cricket</item>
+<item>New York</item>
+<item>Hockey</item>
+<item>32</item>
+<item>Spain</item>
+<item>Cricket</item>
+<item>Hockey</item>
+    </string-array>
+	   <string-array name="gam_cho_C">
+        <item>Ice Hockey</item>
+		<item>Hockey</item>
+<item>Wrestling</item>
+<item>Britian</item>
+<item>Germany</item>
+<item>Boxing</item>
+<item>South Africa</item>
+<item>Yuvaraj Singh</item>
+<item>Polo</item>
+<item>Moscow</item>
+<item>Foot ball</item>
+<item>36</item>
+<item>US</item>
+<item>Lawn Tennis</item>
+<item>Football</item>
+    </string-array>
+	   <string-array name="gam_cho_D">
+        <item>Jujutsu</item>
+		<item>Football</item>
+<item>Swimming</item>
+<item>Malaysia</item>
+<item>London</item>
+<item>Hockey</item>
+<item>Australia</item>
+<item>Sachin Tendulkar</item>
+<item>Hockey</item>
+<item>Switzerland</item>
+<item>Boxing</item>
+<item>38</item>
+<item>Czech Republic</item>
+<item>Table Tennis</item>
+<item>Weight–lifting</item>
+    </string-array>	
+<string-array name="gam_ans">
+<item>Jujutsu</item>
+<item>Cricket</item>
+<item>Wrestling</item>
+<item>India</item>
+<item>Brazil</item>
+<item>Cricket</item>
+<item>Australia</item>
+<item>M S Dhoni</item>
+<item>Cricket</item>
+<item>Switzerland</item>
+<item>Volley ball</item>
+<item>38</item>
+<item>Spain</item>
+<item>Lawn Tennis</item>
+<item>Football</item>
+    </string-array>
+	   
+	   
+	   
+	   
+	   
+	   
+    
+     <string-array name="geo_ques">
+<item>Q1. The percentage of irrigated land in India is about</item>
+<item>Q2. The Salal Project is on the river</item>
+<item>Q3. Who is credited as the first person to use the word geography?</item>
+<item>Q4. Brazil does not border which of the following countries?</item>
+<item>Q5. In which country is the Great Sandy Desert?</item>
+<item>Q6. What is the capital of Pakistan?</item>
+<item>Q7. In which country is the bay of pigs?</item>
+<item>Q8. Which American city was once called New Amsterdam?</item>
+<item>Q9. Paradip Port is located on the delta of which among the following?</item>
+<item>Q10. Port Blair is located on which of the following Islands?</item>
+<item>Q11. Which among the following cities of India does not fall in Torrid Zone?</item>
+<item>Q12. Which among the following is called ” mother of pearl” ?</item>
+<item>Q13. “Open Sky Policy” is related to which of the following?</item>
+<item>Q14. Maximum Production in India is of which among the following crops?</item>
+<item>Q15. “Riksdag” is the name of parliament of which of the following?</item>
+    </string-array>   
+ <string-array name="geo_cho_A">   
+    <item>45</item>                  
+<item>Chenab</item>
+<item> Al Idrisi</item>
+<item>Paraguay</item>
+<item>Belgium</item>
+<item>Lahore</item>
+<item>Ghana</item>
+<item>Washington</item>
+<item>Rihand</item>
+<item>North Andaman</item>
+<item>Chennai</item>
+<item>Ammolite</item>
+<item>Tourism</item>
+<item>Wheat</item>
+<item>Iran</item>
+   </string-array>  
+ <string-array name="geo_cho_B">   
+    <item>35</item>                  
+<item>Ravi</item>
+<item>Plato</item>
+<item>Peru</item>
+<item>Madrid</item>
+<item>Islamabad</item>
+<item>New York</item>
+<item>Dallas</item>
+<item>Baitarni</item>
+<item>Middle Andaman</item>
+<item>Jodhpur</item>
+<item>Tusk</item>
+<item>Agriculture</item>
+<item>Cotton</item>
+<item>Sweden</item>
+   </string-array>  
+<string-array name="geo_cho_C">   
+    <item>65</item>                  
+<item>Jhelum</item>
+<item>Ptolemy</item>
+<item>Guyana</item>
+<item>Australia</item>
+<item>Peshawar</item>
+<item>Cuba</item>
+<item>Chicago</item>
+<item>Mahanadi</item>
+<item>South Andaman</item>
+<item>Mumbai</item>
+<item>Nacre</item>
+<item>Aviation</item>
+<item>Rice</item>
+<item>Norway</item>
+   </string-array>  
+<string-array name="geo_cho_D">   
+    <item>25</item>                  
+<item>Sutlej</item>
+<item>Eratosthenes</item>
+<item>Ecuador</item>
+<item>India</item>
+<item>karachi</item>
+<item>Florence</item>
+<item>New York</item>
+<item>None</item>
+<item>Nicobar</item>
+<item>Jaipur</item>
+<item>Seashell</item>
+<item>Space Research</item>
+<item>Pulses</item>
+<item>Kazakhstan</item>
+   </string-array>  
+<string-array name="geo_ans">   
+    <item>45</item>                  
+<item>Chenab</item>
+<item>Eratosthenes</item>
+<item>Ecuador</item>
+<item>Australia</item>
+<item>Islamabad</item>
+<item>Cuba</item>
+<item>New York</item>
+<item>Mahanadi</item>
+<item>South Andaman</item>
+<item>Jaipur</item>
+<item>Nacre</item>
+<item>Aviation</item>
+<item>Rice</item>
+<item>Sweden</item>
+   </string-array>  
+                  
+ 
+    
+    
+    
+    
+    
+    
+
+    
+    
+    
+       <string-array name="pol_ques">
+        <item>Q1.Who was the first Indian to hold the post of Governor General in India?</item>
+		<item>Q2. Who was Indias first Deputy Prime Minister?</item>
+		<item>Q3. Who was Indias first woman Cabinet Minister? </item>
+		<item>Q4. Which British Governor continued in that position even after India became independent?</item>
+		<item>Q5. Who was the only Indian woman to become the president of the United Nations General Assembly?</item>
+
+		<item>Q6.  Who was the first Vice-Chairman of the Planning Commission?</item>
+		<item>Q7. Who was the first Indian woman to become a Governor of a state?</item>
+		<item>Q8. The first Indian Commander -in-chief of free India was…</item>
+		<item>Q9. Who was Indias first President?</item>
+		<item>Q10. Who was the first Indian woman to be decorated with Bharat Ratna?</item>		
+		<item>Q11. British foreign policy focused on opposing the "strongest, most dominating power on the continent" in order to</item>
+		<item>Q12. Who was the last recipient of Bharat Ratna?</item>
+		<item>Q13. Which is India’s highest military honour?</item>
+		<item>Q14. Who is the 2006 recipient of the International Gandhi Peace Prize?</item>
+		<item>Q15. Which two countries were responsible for the training of the new Afghan army?</item>
+    </string-array>	
+   <string-array name="pol_cho_A">
+        <item>Dr. Rajendra Prasad</item>
+		<item>Sardar Vallabhai Patel</item>
+		<item>Dr. Vijayalakshmi Pandit</item>
+		<item>Sir Archibald Nye</item>
+		<item>Indira Gandhi</item>
+		<item>C.M. Trivedi</item>
+		<item>Padmaja Naidu</item>
+		<item> Air Marshal S Mukherjee </item>
+		<item>C. Rajagopalachari</item>
+		<item>Indira Gandhi</item>		
+		<item>	strengthen the British monarchy.</item>
+		<item>Param Vir Chakra</item>
+		<item>Baba Amte</item>
+		<item>Best Wrestler</item>
+		<item>The United Kingdom and Pakistan</item>
+    </string-array>
+	   <string-array name="pol_cho_B">
+        <item>Dr. K.M. Munshi</item>
+		<item>Morarji Desai</item>
+		<item>Rajkumari Amrit Kaur </item>
+		<item>Sir Henry Knight </item>
+		<item>Reita Faria</item>
+		<item>D.P. Dhar</item>
+		<item>Sarojini Naidu    </item>
+		<item>Gen. Rajendrasinhji</item>
+		<item>Dr. Rajendra Prasad</item>
+		<item>Mother Teresa    </item>		
+		<item>	garner monetary support for the British armed forces.</item>
+		<item>M.S Subbulakshmi</item>
+		<item>Vir Chakra</item>
+		<item>Nelson Mandela</item>
+		<item>The United Kingdom and India</item>
+    </string-array>
+	   <string-array name="pol_cho_C">
+        <item>C. Rajagopalachari</item>
+		<item>Choudhary Charan Singh</item>
+		<item>Dr. Annie Besant</item>
+		<item>Lord William Bentinck</item>
+		<item>Vijaya Lakshmi Pandit</item>
+		<item>Shankarrao Bhaurao Chavan</item>
+		<item> Annie Besant</item>
+		<item>General Cariappa</item>
+		<item>Pandit Jawaharlal Nehru</item>
+		<item>Aruna Asaf Ali   </item>		
+		<item>expand British territory through colonization.</item>
+		<item>Gulzarilal Nanda</item>
+		<item>Maha Vir Chakra</item>
+		<item>John Hume</item>
+		<item>The United States and France</item>
+    </string-array>
+	   <string-array name="pol_cho_D">
+        <item> Annie Besant</item>
+		<item>Jagjivan Ram</item>
+		<item>Sheila Dixit</item>
+		<item>Warren Hastings</item>
+		<item>None of the above</item>
+		<item>V.T. Krishnamachari</item>
+		<item>Indira Gandhi</item>
+		<item>Gen. Gopal Gurunath Bewoor</item>
+		<item>Lord Mountbatten</item>
+		<item>M. S. Subbulakshmi</item>		
+		<item>maintain the balance of power.</item>
+		<item> Gopinath Bordoloi</item>
+		<item>Bharat Ratna</item>
+		<item>Shabana Azmi</item>
+		<item>The United States and the United Kingdom </item>
+    </string-array>
+	   <string-array name="pol_ans">
+        <item> C. Rajagopalachari</item>
+		<item>Sardar Vallabhai Patel</item>
+		<item>Rajkumari Amrit Kaur</item>
+		<item>Sir Archibald Nye</item>
+		<item> Vijaya Lakshmi Pandit</item>
+		<item>V.T. Krishnamachari</item>
+		<item> Sarojini Naidu</item>
+		<item>General Cariappa</item>
+		<item>Dr. Rajendra Prasad</item>
+		<item>Indira Gandhi</item>		
+		<item>maintain the balance of power.</item>
+		<item> Ustad Bismillah Khan </item>
+		<item>Param Vir Chakra</item>
+		<item> Shabana Azmi</item>
+		<item>The United States and France</item>
+    </string-array>
+    
+    
+	   
+	   
+	   
+	   
+	   
+	      <string-array name="his_ques">
+        <item>Q1. On what date is the UNs World Environment Day celebrated?</item>
+		<item>Q2. Ceylon (now Sri Lanka) had the first woman head of government. Who was she?</item>
+		<item>Q3. First General election held in india in which year?</item>
+		<item>Q4. Who holds the record of winning the loksabha election with the maximum number of votes?</item>
+		<item>Q5. When was the WTO founded?</item>
+		<item>Q6. Who was the last President of the USSR?</item>
+		<item>Q7. Which of the following states was the first to declare independence from Yugoslavia?</item>
+		<item>Q8. Who was the first woman to hold a seat in the British parliament?</item>
+		<item>Q9. In what city is the European Commission installed?</item>
+		<item>Q10. The name of a candidate for the office of president of India may be proposed by</item>
+		<item>Q11. Which of those areas is the subject of a dispute between Japan and Russia?</item>
+		<item>Q12. First Governor General of India </item>
+		<item>Q13. What is the most populated Muslim-majority nation today?</item>
+		<item>Q14. Who is the only President of the United States to be sworn into office by his father?</item>
+		<item>Q15. The worlds first postage stamp was introduced in what year?</item>
+
+    </string-array>	
+   <string-array name="his_cho_A">
+                <item>02 May</item>
+		<item>S Bandarnaike</item>
+		<item>1948</item>
+		<item>Pritam Munde</item>
+		<item>1982</item>
+		<item>Gennady Yanayev</item>
+		<item>Slovenia</item>
+		<item>Margaret Thatcher</item>
+		<item>Oslo</item>
+		<item>any five citizens of India</item>
+		<item>South Kuril Islands</item>
+		<item>Warren Hastings</item>
+		<item>Saudi Arabia</item>
+		<item>John .F.Kennedy</item>	
+		<item>1690</item>
+    </string-array>
+	   <string-array name="his_cho_B">
+        <item>24 october</item>
+		<item>Chandrika Kumaratunga</item>
+		<item>1952</item>
+		<item>Anil Basu</item>
+		<item>1992</item>
+		<item>Yuri Andropov</item>
+		<item>Croatia</item>
+		<item>Victoria Cornwell</item>
+		<item>Brussels</item>
+		<item>any five members of the Parliament</item>
+		<item>Liancourt Rocks</item>
+		<item>Lord Wellesley</item>
+		<item>Iran</item>
+		<item>Abraham Lincoln</item>
+		<item>1736</item>
+    </string-array>
+	   <string-array name="his_cho_C">
+        <item>5 July</item>
+		<item>Sheikh Hasina</item>
+		<item>1950</item>
+		<item>Morarji Desai</item>
+		<item>1995</item>
+		<item>Mikhail Sergeyevich Gorbachev</item>
+		<item>Serbia</item>
+		<item>Lady Nancy Astor</item>
+		<item>Munich</item>
+		<item>any one member of the Electoral College</item>
+		<item>Paracel Islands</item>
+		<item>Sir George Barlow</item>
+		<item>Indonesia</item>
+		<item>Calvin Coolidge</item>
+		<item>1842</item>
+    </string-array>
+	   <string-array name="his_cho_D">
+        <item>5 June</item>
+		<item>M Bandarnaike</item>
+		<item>1949</item>
+		<item>Atal Bihari Vajpayee</item>
+		<item>1987</item>
+		<item>Leonid Brezhnev</item>
+		<item>Bosnia</item>
+		<item>Lady Sarah Cruz</item>
+		<item>Geneva</item>
+		<item>any ten members of the Electoral College</item>
+		<item>Jiandao</item>
+		<item>Lord Cornwallis</item>
+		<item>Pakistan</item>
+		<item>Bill Clinton</item>
+		<item>1840</item>
+    </string-array>
+	   <string-array name="his_ans">
+        <item>5 June</item>
+		<item>S Bandarnaike</item>
+		<item>1952</item>
+		<item>Pritam Munde</item>
+		<item>1995</item>
+		<item>Mikhail Sergeyevich Gorbachev</item>
+		<item>Slovenia</item>
+		<item>Lady Nancy Astor</item>
+		<item>Brussels</item>
+		<item>any ten members of the Electoral College</item>
+		<item>South Kuril Islands</item>
+		<item>Warren Hastings</item>
+		<item>Indonesia</item>
+		<item>Calvin Coolidge</item>
+		<item>1840</item>
+    </string-array>
+    
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	      <string-array name="mus_ques">
+        <item>Q1. This song is a love song, a soup song, sung by superstar Rajinikanth’s son-in-law?</item>
+		<item>Q2. Complete this lyric from the song by The Animals. “There is a house in New Orleans, they call the….”</item>
+		<item>Q3. Who did the music for the Movie Partner? </item>
+		<item>Q4. Kya karu o ladies main hoon aadat se majboor... _______, main hoon aadat se majboor...?</item>
+		<item>Q5. “They got married early, never had no money” is the first line of which classic Australian song?</item>
+		<item>Q6. Name the Kishore Kumar song, remixed and sung by his younger son Sumit Kumar in a YRF film?</item>
+		<item>Q7. Aretha Franklin’s 1967 hit song ‘Respect’ was written, and originally performed, by</item>
+		<item>Q8. The 2010 album by Scottish band Belle and Sebastian is called?</item>
+		<item>Q9. Complete this lyric from Michael Jackson’s ‘Thriller’. “It’s close to midnight, and something evil’s lurking in the….”</item>
+		<item>Q10. In the Flaming Lips song "She don't use jelly", what does the girl use to make her hair "real orange"??</item>		
+		<item>Q11. From which You am I song is the following line? “I’m like a waterlogged ball, that no one wants to kick around anymore”"?</item>
+		<item>Q12. The 1980’s hit song “Take on Me” was performed by?</item>
+		<item>Q13. Prior to becoming an opera singer, Luciano Pavarotti worked as a?</item>
+		<item>Q14. “Wide Open Road” is a classic Australian song originally performed by which band??</item>
+		<item>Q15. Match the lyrics to the movie: Kaise mujhe tu mil gayi,Kismat pe aaye naa yaakeen.... ?</item>
+    </string-array>
+   <string-array name="mus_cho_A">
+        <item>Apdi Pode</item>
+		<item>Red house</item>
+		<item>Anu Malik </item>
+		<item>Suroor</item>
+		<item>"To Her Door" by Paul Kelly and the Coloured Girls</item>
+		<item>Yeh Jawaani Hai Deewani</item>
+		<item>Simon and Garfunkel</item>
+		<item>Tigermilk</item>
+		<item>Wind</item>
+		<item>Tangerines</item>
+		<item>Purple Sneakers</item>		
+		<item>Wham!</item>
+		<item>School teacher</item>
+		<item>The Church</item>
+		<item>Wanted </item>
+    </string-array>
+	   <string-array name="mus_cho_B">
+        <item>Remo Remo </item>
+		<item>Rising sun</item>
+		<item>Vishal Shekar</item>
+		<item>Huzoor</item>
+		<item>"Beds are Burning" by Midnight Oil</item>
+		<item>Bachna Ae Haseeno</item>
+		<item>Diana Ross</item>
+		<item>Dear Catastrophe Waitress</item>
+		<item>Air</item>
+		<item>Saffron</item>		
+		<item>Berlin Chair</item>
+		<item>A-ha</item>
+		<item>Plumber</item>
+		<item>Hunters and Collectors</item>
+		<item>Dil</item>
+    </string-array>
+	   <string-array name="mus_cho_C">
+        <item>Ringa Ringa</item>
+		<item>House on the moon</item>
+		<item>Himesh Reshamiyya</item>
+		<item>Fitoor</item>
+		<item>Listen Like Thieves’ by INXS</item>
+		<item>Khaike Paan Banaras Wala</item>
+		<item>Marvin Gaye</item>
+		<item>Write About Love</item>
+		<item>Dark</item>
+		<item>Something you buy at the store </item>		
+		<item>Heavy Heart</item>
+		<item>Duran Duran</item>
+		<item>Chef</item>
+		<item>Icehouse</item>
+		<item>Karan arjun-</item>
+    </string-array>
+	   <string-array name="mus_cho_D">
+        <item>Why this Kolaveri Di?  </item>
+		<item>Cool house</item>
+		<item>Sajid - Wajid</item>
+		<item>Hruoor</item>
+		<item>"Khe Sahn" by Cold Chise</item>
+		<item>Humein Tumse Pyaar Kitna</item>
+		<item>Otis Redding</item>
+		<item>If You’re Feeling Sinister</item>
+		<item>Trees</item>
+		<item>Food colouring</item>		
+		<item>Mr. Milk</item>
+		<item>Flock of Seagulls</item>
+		<item>Gardener</item>
+		<item>The Triffids</item>
+		<item>Ghajni</item>
+    </string-array>
+	   <string-array name="mus_ans">
+        <item>Why this Kolaveri Di?</item>
+		<item>Rising sun</item>
+		<item>Sajid - Wajid</item>
+		<item>Huzoor</item>
+		<item>"To Her Door" by Paul Kelly and the Coloured Girls</item>
+		<item>Humein Tumse Pyaar Kitna</item>
+		<item>Otis Redding</item>
+		<item>Write About Love</item>
+		<item>Dark</item>
+		<item>Tangerines</item>		
+		<item>Heavy Heart</item>
+		<item>A-ha</item>
+		<item>School teacher</item>
+		<item>The Triffids</item>
+		<item>Ghajni</item>
+    </string-array>
+
+	   
+	   
+	   
+	   
+   <string-array name="logo_ques">
+        <item>Q1. Which Fashion Brand"s logo is this? </item>
+		<item>Q2. Which Mobile Company is this?</item>
+		<item>Q3. Which popular brand is this?</item>
+		<item>Q4. This is a which companys logo</item>
+		<item>Q5. Which company is this?</item>
+		<item>Q6. Which Company is this?</item>
+		<item>Q7. Name This Oil Company?</item>
+		<item>Q8. The famous Coffee Brand?</item>
+		<item>Q9. This is the Logo of?</item>
+		<item>Q10. This is the logo of?</item>		
+		<item>Q11. This Logo is of?</item>
+		<item>Q12. This is the Logo of?</item>
+		<item>Q13. This is the Logo of?</item>
+		<item>Q14. The name of this Company is?</item>
+		<item>Q15. This is the Logo of?</item>
+    </string-array>	
+   <string-array name="logo_cho_A">
+        <item>Versace</item>
+		<item>Blackberry</item>
+		<item>Addidas</item>
+		<item>Infiniti</item>
+		<item>Samsung Corps</item>
+		<item>B.P PLC</item>
+		<item>SHELL</item>
+		<item>Dunkin Brands Group, Inc.</item>
+		<item>Marubeni Corporation</item>
+		<item>Spotify</item>		
+		<item>Philips</item>
+		<item>Norton</item>
+		<item>Bank Of America</item>
+		<item>Cisco</item>
+		<item>Photoshop</item>
+    </string-array>	
+	   <string-array name="logo_cho_B">
+        <item>Boden</item>
+		<item>Nokia</item>
+		<item>Air</item>
+		<item>Bata</item>
+		<item>Daewoo</item>
+		<item>Royal Dutch Shell</item>
+		<item>Chevron Corporation </item>
+		<item>Nestle S.A.</item>
+		<item>Itochu Corporation</item>
+		<item>Deezer</item>		
+		<item>Bass</item>
+		<item>Avira</item>
+		<item>HDFC</item>
+		<item>Polycon</item>
+		<item>Picasa</item>
+    </string-array>	
+	   <string-array name="logo_cho_C">
+        <item>Boots</item>
+		<item>Belkin</item>
+		<item>Converse</item>
+		<item>Choice</item>
+		<item>Hyundai Motors</item>
+		<item>Exxon Mobil Corp</item>
+		<item>Mcdonalds Corporation</item>
+		<item>Rdio</item>
+		<item>Mitsubishi Motors Corporation</item>
+		<item>Rdio</item>
+		<item>Beats</item>		
+		<item>Avast</item>
+		<item>State Bank Of India</item>
+		<item>Netflix</item>
+		<item>Chrome</item>
+    </string-array>	
+	   <string-array name="logo_cho_D">
+        <item>Coast</item>
+		<item>Cenda</item>
+		<item>Big Foot</item>
+		<item>Fighter</item>
+		<item>Kai Motors</item>
+		<item>Total Petroleum</item>
+		<item>None Of the Above</item>
+		<item>Starbucks</item>
+		<item>Toyota Motor Corporation</item>
+		<item>Simpy</item>		
+		<item>Skullcandy</item>
+		<item>AVG</item>
+		<item>World Bank</item>
+		<item>Aruba</item>
+		<item>Torch</item>
+    </string-array>
+	   <string-array name="logo_ans">
+        <item>Versace</item>
+		<item>Belkin</item>
+		<item>Converse</item>
+		<item>Infiniti</item>
+		<item>Daewoo</item>
+		<item>Total Petroleum</item>
+		<item>Shell</item>
+		<item>Starbucks</item>
+		<item>Mitsubishi Motors Corporation</item>
+		<item>Spotify</item>		
+		<item>Beats</item>
+		<item>Avira</item>
+		<item>State Bank Of India</item>
+		<item>Cisco</item>
+		<item>Picasa</item>
+    </string-array>
+	   
+	      
+	      <string-array name="fla_ques">
+        <item>Q1. Guess the Country - It has The Little Mermaid statue in Copenhagen? </item>
+		<item>Q2. Guess the Country - It has  Ludwigs castle in Bavaria ?</item>
+		<item>Q3. Guess the Country Famous for Mount Fujiyama?</item>
+		<item>Q4. Guess the Country -  the bazaar in Marrakesh </item>
+		<item>Q5. Guess the Country - has St. Basils in Red Square?</item>
+		<item>Q6. Guess the Country -Simon Bolivar?</item>
+		<item>Q7. Guess the Country - the ruins at Chichen Itza?</item>
+		<item>Q8. Guess the Country - famous for fjords, salmon, oil, Vikings ?</item>
+		<item>Q9. Largest illegal opium producer?</item>
+		<item>Q10. Guess the Country - varied culture and for saints</item>		
+		<item>Q11. This country never had a war in last 1000 years?</item>
+		<item>Q12. Guess the Country famous for  fable clothes?</item>
+		<item>Q13. Guess the Country famous for lady boys?</item>
+		<item>Q14. Guess the Country -  Goulash?</item>
+		<item>Q15. This country famous for most colourful women dresses ever made ?</item>
+    </string-array>	
+   <string-array name="fla_cho_A">
+        <item>Chile</item>
+		<item>Argentina</item>
+		<item>Brazil</item>
+		<item>Morocco</item>
+		<item>Romania</item>
+		<item>Maldives</item>
+		<item>Aruba</item>
+		<item>Austria</item>
+		<item>Afghanistan</item>
+		<item>Bolivia</item>		
+		<item>Burma</item>
+		<item>Comoros</item>
+		<item>Cuba</item>
+		<item>Dominica</item>
+		<item>Zimbabwe</item>
+    </string-array>	
+	   <string-array name="fla_cho_B">
+        <item>USA</item>
+		<item>Germany</item>
+		<item>Geaorgia</item>
+		<item>Iraq</item>
+		<item>Russia</item>
+		<item>Jordan</item>
+		<item>Kenya</item>
+		<item>Norway</item>
+		<item>Kuwait</item>
+		<item>India</item>		
+		<item>Andorra</item>
+		<item>Libya</item>
+		<item>Thailand</item>
+		<item>Mali</item>
+		<item>Netherlands</item>
+    </string-array>
+	   <string-array name="fla_cho_C">
+        <item>Burundi</item>
+		<item>Canada</item>
+		<item>Japan</item>
+		<item>Korea</item>
+		<item>Portugal</item>
+		<item>Venezuela </item>
+		<item>Serbia</item>
+		<item>South Aftica</item>
+		<item>Spain</item>
+		<item>Syria</item>
+		<item>Sweden</item>		
+		<item>Turkey</item>
+		<item>Ukraine</item>
+		<item>Yemen</item>
+		<item>Saudi Arabia</item>
+    </string-array>
+	   <string-array name="fla_cho_D">
+        <item>Denmark</item>
+		<item>Canada</item>
+		<item>Sri Lanka</item>
+		<item>Kazikshtan</item>
+		<item>Jamaca</item>
+		<item>Indonesia</item>
+		<item>Mexico </item>
+		<item>Canada</item>
+		<item>France</item>
+		<item>Finland</item>		
+		<item>Nepal</item>
+		<item>Lithuania</item>
+		<item>Belgium</item>
+		<item>Hungary</item>
+		<item>Bhutan</item>
+    </string-array>
+	   <string-array name="fla_ans">
+        <item>Denmark</item>
+		<item>Germany</item>
+		<item>Japan</item>
+		<item>Morocco </item>
+		<item>Russia</item>
+		<item>Venezuela </item>
+		<item>Mexico </item>
+		<item>Norway</item>
+		<item>Afghanistan</item>
+		<item>India</item>		
+		<item>Andorra</item>
+		<item>Lithuania</item>
+		<item>Thailand</item>
+		<item>Hungary</item>
+		<item>Zimbabwe</item>
+    </string-array>
+    
+	   
+	   
+	  
+	   
+	   
+	   <string-array name= "peo_ques">
+	<item>Q1. Indian Australian writer, journolist. His debut novel won a man bukas prize?</item>
+	<item>Q2. American singer and actor of mid 20th century,often referred to as the king of Rock and Roll? </item>
+	<item>Q3. Canadian film director, producer who have directed the two bigest box office films of all time ?</item>
+	<item>Q4. British Novelist and author of famous best known for writing  the worlds most selling book series?</item>
+	<item>Q5. First women head of state of Australia?</item>
+	<item>Q6. Nobel peace prize winner associated with bachpan bachao andolan.</item>
+	<item>Q7. Seveen consecutive Tour De France</item>
+	<item>Q8. American Baptist,activist, Humanitarian and leader in the African-American Civil Rights movement</item>
+	<item>Q9. Indian-American business executive. He is the current CEO - Chief Executive Officer of Microsoft.</item>
+	<item>Q10. American industrialist, the founder of the Ford Motor Company</item>
+	<item>Q11. CEO of Adobe Systems from indian origin</item>
+	<item>Q12. Indian film director. He is particularly noted for his realistic and socialistic films</item>
+	<item>Q13. Australian publisher and journalist. He is known as the editor-in-chief of the website WikiLeaks</item>
+	<item>Q14. English musician, and songwriter who rose to worldwide fame as a founder member of the rock band the Beatles</item>
+	<item>Q15.  New Zealand mountaineer and explorer became the first climbers to reach the height of Mount Everest</item>
+</string-array>
+<string-array name= "peo_cho_A">
+	<item>Durjoy dutta</item>
+	<item>Elvis Presley</item>
+	<item>Jhon Wick</item>
+	<item>Stefini Mayer</item>
+	<item>Ellen Johnson Sirleaf</item>
+	<item>Baba amte</item>
+	<item>Jan Ullrich</item>
+	<item>Malcolm X</item>
+	<item>Rajeev Suri</item>
+	<item>Robin Maskell</item>
+	<item>Anshu Jain</item>
+	<item>Bimal Roy</item>
+	<item>Edward Snowden</item>
+	<item>Leptin Hog</item>
+	<item>Krisule Bachen</item>
+</string-array>
+<string-array name= "peo_cho_B">
+	<item>Arvind Adiga</item>
+	<item>Johnny Cash</item>
+	<item>James Cameron</item>
+	<item>Suzanne Collins</item>
+	<item>Nino Burjanadze</item>
+	<item>Anna hazare</item>
+	<item>Lance Armstrong</item>
+	<item>Dexter Scott KIng</item>
+	<item>Sabeer Bhatia</item>
+	<item>andrew carnegie</item>
+	<item>Andrew Nwelt</item>
+	<item>Lara stoplp</item>
+	<item>Chelsea Mannings</item>
+	<item>John Lennon</item>
+	<item>Tenzing Norgay</item>
+</string-array>
+<string-array name= "peo_cho_C">
+	<item>Ravinder singh</item>
+	<item>Irwin Corey</item>
+	<item>Steven Speelberg</item>
+	<item>Veronica Roth</item>
+	<item>Julia Gilard</item>
+	<item>Kailash Satyarthi</item>
+	<item>Greg Lemond</item>
+	<item>Martin Luther King</item>
+	<item>Satya Nadella</item>
+	<item>Henry Ford</item>
+	<item>Ajaypal Singh Banga</item>
+	<item>Hrishikesh Mukherjee</item>
+	<item>Julian Assange</item>
+	<item>Ringo Starr</item>
+	<item>George Mallory</item>
+</string-array>
+<string-array name= "peo_cho_D">
+	<item>Gregory david roberts</item>
+	<item>Norman Lloyd</item>
+	<item>Cristopher Nolen</item>
+	<item>J K Rowling</item>
+	<item>Adrienne Clarkson</item>
+	<item>R K Pachauri</item>
+	<item>Floyd Landis</item>
+	<item>Yolanda King</item>
+	<item>Sunder Pichai</item>
+	<item>John d rockefeller</item>
+	<item>Shantanu Narayen</item>
+	<item>Ritwik ghatak</item>
+	<item>Adian Lamo</item>
+	<item>George Harrison</item>
+	<item>Sir Edmund Hillary</item>
+</string-array>
+<string-array name= "peo_ans">
+	<item>Arvind Adiga</item>
+	<item>Elvis Presley</item>
+	<item>James Cameron</item>
+	<item>J K Rowling</item>
+	<item>Julia Gilard</item>
+	<item>Kailash satyarthi</item>
+	<item>Lance Armstrong</item>
+	<item>Martin Luther King</item>
+	<item>Satya Nadella</item>
+	<item>Henry Ford</item>
+	<item>Shantanu Narayen</item>
+	<item>Bimal Roy</item>
+	<item>Julian Assange</item>
+	<item>John Lennon</item>
+	<item>Sir Edmund Hillary</item>
+</string-array>
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	      <string-array name="mon_ques">
+        <item>Q1.In which city would you find Notre Dame Cathedral? </item>
+		<item>Q2.Which amazing waterfalls are located on the border between Zambia and Zimbabwe?</item>
+		<item>Q3.Which city is the Taj Mahal located in?</item>
+		<item>Q4. The Flavian Amphitheatre is the proper name for which famous Roman landmark?</item>
+		<item>Q5. Parisian landmark built by Napoleon Bonaparte after his victory in the battle of Austerlitz?</item>
+		<item>Q6.The Muslim built Alhambra in Spain . Which city would you find it located in?</item>
+		<item>Q7. A very famous landmark is London is Big Ben, but what actually is Big Ben?</item>
+		<item>Q8. In which country would you find The Leaning Tower of Pisa?</item>
+		<item>Q9. What year was New Yorks Empire State Building completed?</item>
+		<item>Q10. What was the initial purpose of the Stonehenge?</item>		
+		<item>Q11.What religious and sacred landmark is found in the Old City of Jerusalem, also called the Noble Sanctuary?</item>
+		<item>Q12.Where is the Sagrada Familia?</item>
+		<item>Q13. Where can one find the Saint Basils Cathedral?</item>
+		<item>Q14. Which year was the Statue of Liberty completed?</item>
+		<item>Q15.The Brihadisvara temple at Thanjavur, in Tamil Nadu was built by?</item>
+    </string-array>
+	
+
+	
+   <string-array name="mon_cho_A">
+        <item> Milan</item>
+		<item>Niagara Falls</item>
+		<item>Agra</item>
+		<item> Colosseum</item>
+		<item>Eiffel Tower</item>
+		<item>Madrid</item>
+		<item> Statue</item>
+		<item>Spain</item>
+		<item>1940</item>		
+		<item>Prayer</item>
+		<item>Prambanan</item>
+		<item>Barcelona Spain</item>
+		<item>Saint Petersburg Russia</item>
+		<item>1865</item>
+                <item>Marthanda Varma</item>
+    </string-array>
+
+	
+	
+	   <string-array name="mon_cho_B">
+        <item>Paris</item>
+		<item>Angel Falls</item>
+		<item>Bombay</item>
+		<item> Fountain of Trevi</item>
+		<item>Sacre Coeur</item>
+		<item>Valencia</item>
+		<item>Bell</item>
+		<item>France</item>
+		<item>1931</item>
+		<item>Burial</item>		
+		<item>Temple of Heaven</item>
+		<item>Madrid Spain</item>
+		<item> Rome Italy</item>
+		<item>1886</item>
+		<item> Tipu Sultan</item>
+    </string-array>
+	
+	
+	   <string-array name="mon_cho_C">
+        <item>New York</item>
+		<item>Victoria Falls</item>
+		<item>Delhi</item>
+		<item>Sistine Chapel</item>
+		<item>Moulin Rouge</item>
+		<item>Granada</item>
+		<item>Skyscraper</item>
+		<item>Italy</item>
+		<item>1937</item>
+		<item>Festivals</item>
+		<item>Temple of Sun</item>		
+		<item>Moscow Russia</item>
+		<item> Venice Italy</item>
+		<item>1876</item>
+		<item> Vikramaditya</item>
+    </string-array>
+	
+	
+	
+	   <string-array name="mon_cho_D">
+        <item>London</item>
+		<item> Yosemite Falls</item>
+		<item>Kolkata</item>
+		<item> Pantheon</item>
+		<item>Arc de Triomphe</item>
+		<item> Seville</item>
+		<item>Clock</item>
+		<item>Germany</item>
+		<item>1939</item>
+		<item>None of the above</item>		
+		<item>Temple Mounts</item>
+		<item>Munich Germany</item>
+		<item>Moscow Russia</item>
+		<item>1854</item>
+		<item> Rajaraja Chola </item>
+    </string-array>
+	   <string-array name="mon_ans">
+        <item>Paris</item>
+		<item>Victoria Falls</item>
+		<item>Agra</item>
+		<item>Colosseum</item>
+		<item>Arc de Triomphe</item>
+		<item>Granada</item>
+		<item>Bell</item>
+		<item>Italy</item>
+		<item>1931</item>
+		<item>Burial</item>		
+		<item>Temple Mounts</item>
+		<item>Barcelona Spain</item>
+		<item>Moscow Russia</item>
+		<item>1886</item>
+		<item> Rajaraja Chola </item>
+    </string-array>
+	   
+	 
+	   
+	   
+	   
+	   <string-array name= "sports_ques">
+	<item>Q1. This ground is associated with which Sports? </item>
+	<item>Q2. Which olympics has this mascot?</item>
+	<item>Q3. This is the first Indian Squash player to be in top 10 players in the world?</item>
+	<item>Q4. This is the logo of ICC Cricket World Cup for which year?</item>
+	<item>Q5. This logo is associated with which sports?</item>
+	<item>Q6. This is the famous Cricket ground of England?</item>
+	<item>Q7. This award is given by Ministry of Youth Affairs and Sport to the best performing  players?</item>
+	<item>Q8. The best player of Table Tennis? </item>
+	<item>Q9. Name these two Golf World Cup champions?</item>
+	<item>Q10. He has the record for scoring maximum goals in World Cup?</item>
+	<item>Q11. Best Table Tennis player of Womens Table Tennis 2014?</item>
+	<item>Q12. One of the most famous Boxer of his time?</item>
+	<item>Q13. Identify the trophy given in the picture.</item>
+	<item>Q14. One of the best known tournament of tennis.</item>
+	<item>Q15. He is the  second fastest athlete ever, after Usain Bolt.</item>
+</string-array>
+<string-array name= "sports_cho_A">
+	<item>Baseball</item>
+	<item>London</item>
+	<item>Joshna Chinappa</item>
+	<item>2011</item>
+	<item>Archery</item>
+	<item>Warwickshire</item>
+	<item>Veer Award</item>
+	<item>Timo Boll</item>
+	<item>Matt Kuchar and Gary Woodland</item>
+	<item>Nilton Santos</item>
+	<item>Loi Jia</item>
+	<item>Mohommad Ali </item>
+	<item>Thomas Cup</item>
+	<item>Australian Open</item>
+	<item>Carl Lewis</item>
+</string-array>
+<string-array name= "sports_cho_B">
+	<item>Javelin Throw</item>
+	<item>Bejing</item>
+	<item>Dipika Pallikal</item>
+	<item>2007</item>
+	<item>Shooting</item>
+	<item>Worcestershire</item>
+	<item>Rajiv Gandhi Khel Ratna Award</item>
+	<item>Ma Long</item>
+	<item>Ian Poulter and Justin Ros</item>
+	<item>Cafu</item>
+	<item>Ai Fukuhara</item>
+	<item>Joe Louis</item>
+	<item>Uber Cup</item>
+	<item>Wimbledon</item>
+	<item>Tyson Gay</item>
+</string-array>
+<string-array name= "sports_cho_C">
+	<item>Discuss Throw</item>
+	<item>Athens</item>
+	<item>Cyrus Poncha</item>
+	<item>2003</item>
+	<item>Darts</item>
+	<item>Manchester</item>
+	<item>Dronacharya Award</item>
+	<item>Ma Lin</item>
+	<item>Rory McIlroy and Graeme McDowell</item>
+	<item>Ronaldo</item>
+	<item>Deng Yaping</item>
+	<item>Sugar Ray Leonard</item>
+	<item>The Ashes</item>
+	<item>US Open</item>
+	<item>Michael Johnson</item>
+</string-array>
+<string-array name= "sports_cho_D">
+	<item>Shortput</item>
+	<item>Paris</item>
+	<item>Jamica Sabrwal</item>
+	<item>2015</item>
+	<item>Golf</item>
+	<item>Lords</item>
+	<item>Arjuna Award</item>
+	<item>Li Xiaoxia</item>
+	<item>Richard Green and Brendan Jones</item>
+	<item>Miroslave Klose</item>
+	<item>Ding Ning</item>
+	<item>George Foreman</item>
+	<item>Ranji Trophy</item>
+	<item>French Open</item>
+	<item>Asafa Powell</item>
+</string-array>
+<string-array name= "sports_ans">
+	<item>Baseball</item>
+	<item>Bejing</item>
+	<item>Dipika Pallikal</item>
+	<item>2015</item>
+	<item>Shooting</item>
+	<item>Lords</item>
+	<item>Arjuna Award</item>
+	<item>Ma Long</item>
+	<item>Matt Kuchar and Gary Woodland</item>
+	<item>Miroslave Klose</item>
+	<item>Ding Ning</item>
+	<item>Mohommad Ali</item>
+	<item>The Ashes</item>
+	<item>Wimbledon</item>
+	<item>Tyson Gay</item>
+</string-array>
+
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   
+	   <string-array name= "spo_ques">
+	<item>Q1. In this game you are a Mutant. Identify this game</item>
+	<item>Q2. This game is based on a famous Anime Series. Identify this game</item>
+	<item>Q3. In this game the hero has the power to control time. This game is</item>
+	<item>Q4. $1000$ this is one of the famous maps of this game. The game is</item>
+	<item>Q5. Kratos is the name of its main character?</item>
+	<item>Q6. Speed is thrill</item>
+	<item>Q7. In this game you are a silent assassin?</item>
+	<item>Q8. Pikachu</item>
+	<item>Q9. Knock Out?(K.O)</item>
+	<item>Q10. Developed by Feral Interactive? This game is?</item>
+	<item>Q11. This game is designed by Koji Igarsashi</item>
+	<item>Q12. This game is famous in North America and Europe?</item>
+	<item>Q13. A Spy?</item>
+	<item>Q14. This game is developed by UB Soft</item>
+	<item>Q15. Minions!!!!</item>
+</string-array>
+
+<string-array name= "spo_cho_A">
+	<item>Minicraft</item>
+	<item>Bleach</item>
+	<item>Mortal Combat</item>
+	<item>Counter Strike</item>
+	<item>Dota</item>
+	<item>Crysis 3</item>
+	<item>Tomb Raider</item>
+	<item>Bleach</item>
+	<item>Dante</item>
+	<item>Thief</item>
+	<item>Castlevania</item>
+	<item>Battlefield</item>
+	<item>FIFA</item>
+	<item>Dragon Age</item>
+	<item>Rayman</item>
+</string-array>
+
+<string-array name= "spo_cho_B">
+	<item>GTA</item>
+	<item>Naruto</item>
+	<item>Prince Of Persia</item>
+	<item>Residental Evil</item>
+	<item>The Sims 2</item>
+	<item>Need For Speed</item>
+	<item>Far Cry</item>
+	<item>Devil May Cry</item>
+	<item>Mortal Combat</item>
+	<item>Assassin Creed</item>
+	<item>Far Cry</item>
+	<item>SimCity 2000</item>
+	<item>Fallout</item>
+	<item>Dead Space</item>
+	<item>Despicable</item>
+</string-array>
+
+<string-array name= "spo_cho_C">
+	<item>Wolverine</item>
+	<item>Dragon Age</item>
+	<item>Assasin Creed</item>
+	<item>Mario</item>
+	<item>God of War</item>
+	<item>Mario</item>
+	<item>Hitman</item>
+	<item>Swift</item>
+	<item>Dragon Ball Z</item>
+	<item>Modern War Fare</item>
+	<item>Mass Effect 2</item>
+	<item>Pacman</item>
+	<item>James Bond</item>
+	<item>Titan Fall</item>
+	<item>Splinter Cell</item>
+</string-array>
+
+<string-array name= "spo_cho_D">
+	<item>COD</item>
+	<item>Batman</item>
+	<item>Mafia 2</item>
+	<item>Call Of Duty</item>
+	<item>Saints Row</item>
+	<item>Civilization</item>
+	<item>Naruto</item>
+	<item>Pokemon</item>
+	<item>Gear</item>
+	<item>Tomb Raider</item>
+	<item>Halo</item>
+	<item>Total Overdose</item>
+	<item>Bio Shock</item>
+	<item>Far Cry</item>
+	<item>Ghost Recon</item>
+</string-array>
+
+<string-array name= "spo_ans">
+	<item>Wolverine</item>
+	<item>Naruto</item>
+	<item>Prince Of Persia</item>
+	<item>Counter Strike</item>
+	<item>God of War</item>
+	<item>Need For Speed</item>
+	<item>Hitman</item>
+	<item>Pokemon</item>
+	<item>Mortal Combat</item>
+	<item>Tomb Raider</item>
+	<item>Castlevania</item>
+	<item>Total Overdose</item>
+	<item>James Bond</item>
+	<item>Far Cry</item>
+	<item>Despicable</item>
+</string-array>
+
+	   
+
+
+
+
+<string-array name= "lan_ques">
+	<item>Q1. This language is spoken in Greece?</item>
+	<item>Q2. This language is spoken by HAN majority?</item>
+	<item>Q3. This is the native language of Netherlands?</item>
+	<item>Q4. Is a roamnce language belonging to the Indo European Family?</item>
+	<item>Q5. This is one of the official language of Switzerland and Luxembourg?</item>
+	<item>Q6. This is one of the oldest language spoken?</item>
+	<item>Q7. This is the longest word of this language : precipitevolissimevolmente?</item>
+	<item>Q8. Novgorod Codex is the most ancient book of this language ?</item>
+	<item>Q9. Also known as  espa¤o?</item>
+	<item>Q10. This is an East Salvic Language?</item>
+	<item>Q11. Namaste is the well known word of this language?</item>
+	<item>Q12. The most common letter of this language is E ?</item>
+	<item>Q13. This is the official language of Pakistan?</item>
+	<item>Q14. Insha Allah is the famous quotation in ?</item>
+	<item>Q15. This language came from Orkhon script ?</item>
+</string-array>
+
+<string-array name= "lan_cho_A">
+	<item>French</item>
+	<item>Arabic</item>
+	<item>Italian</item>
+	<item>Indonasian</item>
+	<item>German</item>
+	<item>French</item>
+	<item>German</item>
+	<item>Italian</item>
+	<item>Spanish</item>
+	<item>Spanish</item>
+	<item>English</item>
+	<item>Arabic</item>
+	<item>Hindi</item>
+	<item>Arabic</item>
+	<item>Ukranian</item>
+</string-array>
+
+<string-array name= "lan_cho_B">
+	<item>German</item>
+	<item>Polish</item>
+	<item>Deutch</item>
+	<item>Swedish</item>
+	<item>Croatian</item>
+	<item>Hindi</item>
+	<item>Chinese</item>
+	<item>Japanse</item>
+	<item>Frnech</item>
+	<item>Ukranian</item>
+	<item>Hindi</item>
+	<item>German</item>
+	<item>English</item>
+	<item>Urdu</item>
+	<item>Turkish</item>
+</string-array>
+
+<string-array name= "lan_cho_C">
+	<item>Greek</item>
+	<item>Chinese</item>
+	<item>Greek</item>
+	<item>Turkish</item>
+	<item>Japanese</item>
+	<item>English</item>
+	<item>Italian</item>
+	<item>Portuguese</item>
+	<item>Croatioan</item>
+	<item>Russian</item>
+	<item>Arabic</item>
+	<item>Swedish</item>
+	<item>Urdu</item>
+	<item>Italian</item>
+	<item>Chamicuro</item>
+</string-array>
+
+<string-array name= "lan_cho_D">
+	<item>Albanian</item>
+	<item>Spanish</item>
+	<item>Latin</item>
+	<item>French</item>
+	<item>Italian</item>
+	<item>Greek</item>
+	<item>English</item>
+	<item>Russian</item>
+	<item>German</item>
+	<item>Italian</item>
+	<item>Urdu</item>
+	<item>English</item>
+	<item>Arabic</item>
+	<item>Javanese</item>
+	<item>Pazeh</item>
+</string-array>
+
+<string-array name= "lan_ans">
+	<item>Albanian</item>
+	<item>Chinese</item>
+	<item>Deutch</item>
+	<item>French</item>
+	<item>German</item>
+	<item>Greek</item>
+	<item>Italian</item>
+	<item>Russian</item>
+	<item>Spanish</item>
+	<item>Ukranian</item>
+	<item>Hindi</item>
+	<item>English</item>
+	<item>Urdu</item>
+	<item>Arabic</item>
+	<item>Turkish</item>
+</string-array>
+
+
+
+
+
+	   
+	   
+	   
+	   
+	      <string-array name="son_ques">
+        <item>Q1. This famous song is sung by bryan adams, how old was he when he sang this?</item>
+		<item>Q2. Who has done the rap in this song?</item>
+		<item>Q3. Whats the name of this song sung by one republic? </item>
+		<item>Q4. Who sang this song?</item>
+		<item>Q5. This amazing song released by "the beatles" what is its name ?</item>
+		<item>Q6. This song sung by Alia bhatt was a part of which movie?</item>
+		<item>Q7. This song "way back into love" was a part of which movie?</item>
+		<item>Q8. This song was in the famous movie "PK" realeased in 2015, who sang it?</item>
+		<item>Q9. This song "bezubaan" is a part of which hindi movie?</item>
+		<item>Q10. Who sang this song "the climb", she is also the singer of the song "buterfly fly away"?</item>		
+		<item>Q11. This song won various awards, who was the lead actress in this movie?</item>
+		<item>Q12. He is also the singer of the song "heartbeat" and this song "why not me", who is he?</item>
+		<item>Q13. identify this song sung by katty perry?</item>
+		<item>Q14. whats the name of this song which was a part of the movie breaking dawn??</item>
+		<item>Q15. This famous song "iktara" is a part of which movie ?</item>
+    </string-array>
+   <string-array name="son_cho_A">
+        <item>18</item>
+		<item>Eminem</item>
+		<item>I Lived </item>
+		<item>Avril</item>
+		<item>Hey Jude</item>
+		<item>Humpty Sharma Ki Dulhania</item>
+		<item>Walk To Remember </item>
+		<item>Sonu Nigam</item>
+		<item>Any Body Can Dance</item>
+		<item>Avril</item>
+		<item>Alia Bhatt</item>		
+		<item>Eminem</item>
+		<item>Fucking Perfect</item>
+		<item>I Lived</item>
+		<item>Wanted</item>
+    </string-array>
+	   <string-array name="son_cho_B">
+        <item>22</item>
+		<item>Jeremy Saunders</item>
+		<item>Apologise</item>
+		<item>Taylor Swift </item>
+		<item>Let It Be</item>
+		<item>Highway</item>
+		<item>Breaking Dawn</item>
+		<item>Arijit Singh</item>
+		<item>PK</item>
+		<item>Taylor Swift</item>		
+		<item>Katrina Kaif</item>
+		<item>Jeremy Saunders</item>
+		<item>Love The Way You Lie</item>
+		<item>Let It Be</item>
+		<item>Dil</item>
+    </string-array>
+	   <string-array name="son_cho_C">
+        <item>25</item>
+		<item>Nicholas Sherwood</item>
+		<item>Love Runs Out</item>
+		<item>Miley Cyrus </item>
+		<item>Love Me Do</item>
+		<item>Student Of The Year</item>
+		<item>Music And Lyrics</item>
+		<item>Ali Zafar</item>
+		<item>Swadesh</item>
+		<item>Miley Cyrus </item>		
+		<item>Shraddha Kapoor</item>
+		<item>Nicholas Sherwood </item>
+		<item>Blank Space</item>
+		<item>Love Me Do</item>
+		<item>Karan-Arjun</item>
+    </string-array>
+	   <string-array name="son_cho_D">
+        <item>26</item>
+		<item>Anthony Henderson</item>
+		<item>Counting Stars</item>
+		<item>Shakira </item>
+		<item>Black Bird</item>
+		<item>Two States</item>
+		<item>Fifty Shades Of Grey</item>
+		<item>Anu Malik</item>
+		<item>Three Idiots</item>
+		<item>Shakira</item>		
+		<item>Priyanka Chopra</item>
+		<item>Enrique Iglesias</item>
+		<item>Baby Love Me</item>
+		<item>Thousand Years</item>
+		<item>Wake Up Sid </item>
+    </string-array>
+	   <string-array name="son_ans">
+        <item>26</item>
+		<item>Eminem</item>
+		<item>Counting Stars</item>
+		<item>Avril</item>
+		<item>Black Bird</item>
+		<item>Humpty Sharma Ki Dulhania</item>
+		<item>Music And Lyrics</item>
+		<item>Sonu Nigam</item>
+		<item>Any Body Can Dance</item>
+		<item>Miley Cyrus</item>		
+		<item>Shraddha Kapoor</item>
+		<item>Enrique Iglesias</item>
+		<item>Fucking Perfect</item>
+		<item>Thousand Years</item> 
+		<item>Wake Up Sid  </item>
+    </string-array>
+	   
+	   
+	   
+		   
+</resources>

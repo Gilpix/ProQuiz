@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gilpix.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="21" />
+
+
+    
+	<supports-screens 
+                  android:smallScreens="false"
+                  android:normalScreens="true"
+                  android:largeScreens="true"
+                  android:xlargeScreens="false"
+                  />
+	 
+	
+	<uses-permission
+	     android:name="android.permission.READ_EXTERNAL_STORAGE" />
+	
+	
+	
+	
+	
+	<application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/AppTheme" android:windowSoftInputMode="adjustPan">
+        <activity android:name="com.gilpix.test.Splash" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/NoActionBar" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.gilpix.test.Level" android:label="LEVEL" android:screenOrientation="portrait" android:theme="@style/NoActionBar" android:windowSoftInputMode="adjustPan">
+        </activity>
+        
+        <activity android:name="com.gilpix.beginners.Categories" android:screenOrientation="portrait">
+        </activity>
+        
+        
+        <activity android:name="com.gilpix.beginners.Entertainment" android:label="Entertainment" android:screenOrientation="portrait">
+        </activity>
+        
+        <activity android:name="com.gilpix.beginners.Geography" android:label="Geography" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.gilpix.beginners.History" android:label="History" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.gilpix.beginners.Literature" android:label="Literature" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.gilpix.beginners.Music" android:label="Music" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.gilpix.beginners.Business" android:label="Business" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.gilpix.beginners.Religion" android:label="Religion" android:screenOrientation="portrait">
+        </activity> 
+        <activity android:name="com.gilpix.beginners.Science" android:label="Science" android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.gilpix.beginners.Sports" android:label="Sports" android:screenOrientation="portrait">
+        </activity>
+   
+        <activity android:name="com.gilpix.beginners.Beginners" android:label="Beginners" android:screenOrientation="portrait">
+        </activity>
+        
+       
+          
+        
+        
+        
+          <activity android:name="com.gilpix.result.Result" android:label="RESULT" android:screenOrientation="portrait">
+        </activity>
+        
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <activity android:name="com.gilpix.picture.Pcategories" android:label="Picture Categories" android:screenOrientation="portrait" >
+          </activity>
+        
+          <activity android:name="com.gilpix.picture.Logo" android:label="@string/app_name" android:screenOrientation="portrait">
+        </activity>
+        
+          <activity android:name="com.gilpix.picture.Monuments" android:label="@string/app_name" android:screenOrientation="portrait" >
+        </activity>
+        
+        
+          <activity android:name="com.gilpix.picture.Flags" android:label="@string/app_name" android:screenOrientation="portrait" >
+        </activity>
+        
+          <activity android:name="com.gilpix.picture.Sports" android:label="@string/app_name" android:screenOrientation="portrait" >
+        </activity>
+        
+          <activity android:name="com.gilpix.picture.People" android:label="@string/app_name" android:screenOrientation="portrait" >
+        </activity>
+        
+        
+          <activity android:name="com.gilpix.picture.Nature" android:label="@string/app_name" android:screenOrientation="portrait" >
+        </activity>
+        
+
+        
+          
+          
+          
+          
+          
+          
+          
+           <activity android:name="com.gilpix.audio.Acategories" android:label="Audio Categories" android:screenOrientation="portrait">
+        </activity>
+        
+           <activity android:name="com.gilpix.audio.Animals" android:label="Animals" android:screenOrientation="portrait">
+        </activity>
+        
+           <activity android:name="com.gilpix.audio.Anthem" android:label="Anthem" android:screenOrientation="portrait">
+        </activity>
+        
+           <activity android:name="com.gilpix.audio.Games" android:label="Games" android:screenOrientation="portrait">
+        </activity>
+        
+           <activity android:name="com.gilpix.audio.Languages" android:label="Languages" android:screenOrientation="portrait">
+        </activity>
+        
+           <activity android:name="com.gilpix.audio.Serials" android:label="Serials" android:screenOrientation="portrait">
+        </activity>
+        
+           <activity android:name="com.gilpix.audio.Songs" android:label="Songs" android:screenOrientation="portrait">
+        </activity>
+        
+    </application>
+
+</manifest>

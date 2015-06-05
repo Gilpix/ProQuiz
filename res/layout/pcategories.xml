@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_weight="1.4" >
+        
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginBottom="5dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical" >
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" 
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="1.5dp"
+                    android:src="@drawable/logo" />
+
+                  <ImageView
+                    android:id="@+id/monuments"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                      android:layout_marginLeft="1.5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/monuments" />
+
+            </LinearLayout>
+            
+            
+            
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" 
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/people"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="1.5dp"
+                    android:src="@drawable/people" />
+ 
+
+
+                
+                <ImageView
+                    android:id="@+id/flags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="1.5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/flags" />
+            </LinearLayout>
+            
+            
+            
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" 
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/sports"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="1.5dp"
+                    android:src="@drawable/psports" />
+ 
+                <ImageView
+                    android:id="@+id/nature"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                      android:layout_marginLeft="1.5dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/nature" />
+
+            </LinearLayout>
+            
+            
+            
+                       
+            
+         
+        
+        
+        
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
